@@ -60,9 +60,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <image>
-                        <name>realbank/${project.artifactId}</name>
-                    </image>
+                    <imageName>realbank/${project.artifactId}</imageName>
                 </configuration>
 			</plugin>
 		</plugins>
